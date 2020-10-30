@@ -37,6 +37,11 @@ while running:
     screen.fill (black)
     screen.blit(red,(0,0))
     screen.blit(blue,(100,100))
+    screen.blit(orange,(200,150))
+    screen.blit(violet,(200,50))
+    screen.blit(yellow,(200,300))
+    screen.blit(cyan,(100,400))
+    screen.blit(green,(150, 450))
 
     pygame.display.flip()
     pygame.display.update()
